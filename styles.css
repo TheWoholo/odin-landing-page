@@ -42,3 +42,139 @@ footer{
     padding:16px;
 }
 
+.content1{
+    display:flex;
+    background-color: red;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom:50px;
+    padding-top:50px;
+    gap:20px
+}
+
+.content1 .left_half{
+    padding:0;
+    display:flex;
+    flex-direction: column;
+    gap:0px;
+}
+
+.left_half .title{
+    padding:0;
+    margin:0;
+    font-size: 48px
+}
+
+.left_half .info{
+    padding:0;
+    margin:0;
+}
+
+.left_half button{
+    padding:0;
+    margin:0;
+    width:100px;
+}
+
+.content1 .right_half{
+    padding:0;
+}
+
+.content1 .right_half img{
+    height:170px;
+    width:300px;
+}
+
+.content2{
+    padding-bottom: 50px;
+}
+
+.content2 .title{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.content2 .container{
+    display:flex;
+    justify-content: center;
+}
+
+.content2 .content{
+    padding:0 10px;
+    width:100px;
+    text-align: center;
+}
+
+.content2 p{
+    padding:0;
+    margin:0;
+}
+
+.content2 img{
+    height:100px;
+    width:100px;
+    border-color:red;
+    border-width: 3px;
+    border-radius: 10px;
+    border-style: solid;
+}
+
+.content3{
+    background-color: red;
+    padding-top:60px;
+    padding-bottom:60px;
+}
+
+.content3 .gyan{
+    display:flex;
+    flex-direction: column;
+    padding:0 60px;
+    margin:0;
+}
+
+.content3 p{
+    padding:0;
+    margin:0;
+}
+
+.content3 .author{
+    text-align: right;
+}
+
+.content4 .container{
+    background-color: red;
+    margin:50px 0;
+    padding:30px 50px;
+    display:flex;
+    justify-content: space-between;
+    border-radius: 8px;
+}
+
+.content4 .left_half{
+    padding:0;
+    margin:0;
+    flex:1 1 auto;
+}
+
+.content4 .left_half p{
+    padding:0;
+    margin:0;
+}
+
+.content4 .right_half{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content4 .container div{
+    padding:0;
+    margin:0;
+}
+
+.content4 button{
+    border-radius:5px;
+    padding: 2px 16px;
+}
